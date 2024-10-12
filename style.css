@@ -1,0 +1,98 @@
+.profile-image{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.sky{
+    background-color: lightblue;
+    height: 400px;
+}
+
+.introduction{
+    background-color: lightblue;
+    height: 450px;
+}
+
+.html-image{
+    height: 200px;
+}
+
+.Coding {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+}
+
+.image-container {
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+.skill-image {
+    max-width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-container {
+    max-width: 600px; /* Optional: limit text width */
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically if container has a height */
+    text-align: center; /* Center text inside the container */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.contact-box {
+    padding: 15px; /* Inner padding for text */
+    max-width: 600px; /* Limit width for better readability */
+    width: 100%; /* Responsive width */
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    margin: 0px;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.title-text{
+    justify-content: center;
+}
+
+.title-text{
+    text-align: center;
+    padding-top: 125px;
+}
